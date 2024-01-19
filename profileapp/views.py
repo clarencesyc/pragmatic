@@ -20,5 +20,4 @@ class ProfileCreateView(CreateView):
         temp_profile = form.save(commit=False)
         temp_profile.user = self.request.user
         temp_profile.save()
-
         return super().form_valid(form)
