@@ -3,7 +3,7 @@ from django.views.generic import TemplateView
 
 from articleapp.views import ArticleCreateView, ArticleDetailView, ArticleUpdateView, ArticleDeleteView
 
-app_mame = 'articleapp'
+app_name = 'articleapp'
 
 
 
